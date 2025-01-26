@@ -122,7 +122,7 @@ render_piece()
 
 # Initialize Stockfish
 try:
-   stockfish = Stockfish(path="/opt/homebrew/Cellar/stockfish/16/bin/stockfish")
+   stockfish = Stockfish(path="PATH TO STOCKFISH BINARY")
    stockfish_elo = 800
    stockfish_elo = input("Input Stockfish ELO (Default is 800): ")
    # stockfish.update_engine_parameters({"Minimum Thinking Time": 0})
